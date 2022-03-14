@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Id$ nonnax 2022-03-14 11:40:15 +0800
+md_num="$1"
+./scrape.rb "$md_num.md" |  kramdown -
