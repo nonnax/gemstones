@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Id$ nonnax 2022-03-14 14:10:16 +0800
+ls *.md | fzf --preview 'fold -s {} > tmp && cat tmp > {} && cat {}'
