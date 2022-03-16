@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Id$ nonnax 2022-03-14 16:06:53 +0800
+md_num="$1"
+micro "$md_num.md" 
+./make_html "$md_num"
